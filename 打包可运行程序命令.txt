@@ -1,0 +1,1 @@
+pyinstaller -F -w -i cxk.ico main.py -p LoginPage.py -p student_achievement_sql.py -p student_info_sql.py -p AdminPage.py -p teacher_info_sql.py --hidden-import LoginPage --hidden-import student_achievement_sql --hidden-import student_info_sql --hidden-import AdminPage --hidden-import teacher_info_sql
